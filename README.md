@@ -1,16 +1,9 @@
-# cli_mobile
+# Client mobile pour SoigneMoi
 
 SoigneMoi Client Mobile
 
-## Getting Started
+## Build
 
-This project is a starting point for a Flutter application.
+- `JAVA_HOME="/usr/lib/jvm/java-17-openjdk-17.0.9.0.9-3.fc39.x86_64/" flutter build apk`
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+La variable d'environnement JAVA_HOME est utile si vous avez plusieurs jdk et que celui par défaut n'est pas le bon.
