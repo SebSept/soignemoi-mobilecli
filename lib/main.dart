@@ -33,6 +33,6 @@ class _MyWebViewController extends WebViewController {
   _MyWebViewController() {
     super.setJavaScriptMode(JavaScriptMode.unrestricted);
     super.setBackgroundColor(const Color(0x00000000));
-    super.loadRequest(Uri.parse('http://cli.ecf.seb7.fr/'));
+    super.loadRequest(Uri.parse('https://cli.ecf.seb7.fr/'));
   }
 }
